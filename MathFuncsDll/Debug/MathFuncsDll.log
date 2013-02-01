@@ -1,0 +1,31 @@
+﻿Build started 1/31/2013 3:01:22 PM.
+     1>Project "c:\Users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\MathFuncsDll\MathFuncsDll.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\MathFuncsDll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MATHFUNCSDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MathFuncsDll.cpp
+         MathFuncsDll.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MathFuncsDll.dll.embed.manifest.res" Debug\MathFuncsDll_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MathFuncsDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.lib" /MACHINE:X86 /DLL Debug\MathFuncsDll.dll.embed.manifest.res
+         Debug\MathFuncsDll.obj
+            Creating library c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.lib and object c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MathFuncsDll.dll.embed.manifest" /manifest Debug\MathFuncsDll.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MathFuncsDll.dll.embed.manifest.res" Debug\MathFuncsDll_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MathFuncsDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.lib" /MACHINE:X86 /DLL Debug\MathFuncsDll.dll.embed.manifest.res
+         Debug\MathFuncsDll.obj
+            Creating library c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.lib and object c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.exp
+         MathFuncsDll.vcxproj -> c:\users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\Debug\MathFuncsDll.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\MathFuncsDll.unsuccessfulbuild".
+         Touching "Debug\MathFuncsDll.lastbuildstate".
+     1>Done Building Project "c:\Users\darrell\documents\visual studio 2010\Projects\DynamicLibrary\MathFuncsDll\MathFuncsDll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.96
